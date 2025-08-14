@@ -51,6 +51,7 @@ Ce module a été conçu pour être intégré dans une plateforme de gestion de 
 
 
 
+```
 facturation-service/
 ├── src/
 │ ├── main/
