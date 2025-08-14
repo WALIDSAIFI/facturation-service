@@ -49,19 +49,27 @@ Ce module a été conçu pour être intégré dans une plateforme de gestion de 
 
 ## 📂 Structure du projet
 
+facturation-service/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── facturation/
+│   │   │               ├── controller/
+│   │   │               ├── dto/
+│   │   │               ├── entity/
+│   │   │               ├── repository/
+│   │   │               ├── service/
+│   │   │               └── FacturationApplication.java
+│   │   └── resources/
+│   │       ├── application.yml
+│   │       └── data.sql
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── facturation/
+└── pom.xml
 
-
-src/
-├── main/
-│ ├── java/com/example/facturation
-│ │ ├── controller/
-│ │ ├── dto/
-│ │ ├── entity/
-│ │ ├── repository/
-│ │ ├── service/
-│ │ └── FacturationApplication.java
-│ └── resources/
-│ ├── application.yml
-│ └── data.sql
-└── test/
 └── java/com/example/facturation
