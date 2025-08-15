@@ -4,7 +4,6 @@
 Ce projet est un **module backend de facturation** développé en **Java 17 / Spring Boot 3**.  
 Il permet de gérer des **clients**, d’émettre des **factures** avec leurs **lignes détaillées**, de calculer automatiquement les montants (HT, TVA, TTC) et d’exporter une facture complète au format **JSON**.
 
-Ce module a été conçu pour être intégré dans une plateforme de gestion de projets (type AriMayi).
 
 ---
 
@@ -43,7 +42,6 @@ Ce module a été conçu pour être intégré dans une plateforme de gestion de 
 - **Lombok**
 - **Spring Validation**
 - **Swagger/OpenAPI** (documentation API)
-- **Spring Security** (optionnel)
 
 ---
 
