@@ -2,6 +2,7 @@ package com.example.fact.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Entity
@@ -20,6 +21,8 @@ public class Client {
     private String email;
 
     private String telephone;
+    
+    private LocalDate dateCreation;
 
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Facture> factures;
