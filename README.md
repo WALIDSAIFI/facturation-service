@@ -66,8 +66,9 @@ facturation-service/
 │ │ │ ├── service/
 │ │ │ └── FacturationApplication.java
 │ │ └── resources/
-│ │ ├── application.yml
-│ │ └── data.sql
+│ │ └──application.properties
+│ │ ├── application-dev.properties
+│ │ ├──application-prod.properties
 │ └── test/
 │ └── java/
 │ └── com/
