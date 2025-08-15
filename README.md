@@ -30,7 +30,7 @@ Ce module a été conçu pour être intégré dans une plateforme de gestion de 
 
   - Authentification basique avec Spring Security
   - Recherche de factures par client ou date
-  - Tests unitaires
+
 
 ---
 
