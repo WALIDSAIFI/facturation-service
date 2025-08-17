@@ -5,6 +5,9 @@ import lombok.*;
 
 import java.math.BigDecimal;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 @Table(name = "lignes_facture")
 @Data
@@ -31,5 +34,6 @@ public class LigneFacture {
 
     @ManyToOne
     @JoinColumn(name = "facture_id", nullable = false)
+    @JsonBackReference
     private Facture facture;
 }

@@ -5,6 +5,10 @@ import lombok.*;
 import java.time.LocalDate;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+
+
 @Entity
 @Table(name = "clients")
 @Data
@@ -25,5 +29,6 @@ public class Client {
     private LocalDate dateCreation;
 
     @OneToMany(mappedBy = "client", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Facture> factures;
 }
